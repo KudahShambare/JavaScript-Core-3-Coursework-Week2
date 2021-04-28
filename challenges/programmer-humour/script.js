@@ -8,6 +8,7 @@ fetch(url).then(response=>{
         image.src=img["img"]
         let body=document.querySelector("body");
         body.appendChild(image);
+        
     }
 ).catch(error=>{
     console.error(error);
